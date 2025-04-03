@@ -6,14 +6,14 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Guest {
-    String title;
-    String firstName;
-    String lastName;
-    String address;
-    String zipCode;
-    String state;
-    String country;
-    String dateOfBirth;
-    String email;
+    private String title;
+    private String firstName;
+    private String lastName;
+    private String address;
+    private String zipCode;
+    private String state;
+    private String country;
+    private String dateOfBirth;
+    private String email;
 
 }
